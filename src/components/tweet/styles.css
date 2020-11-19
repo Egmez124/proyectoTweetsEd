@@ -1,0 +1,87 @@
+.tweet-container{
+    display: flex;
+    flex-direction: column;   
+    width: 95%;
+    padding: 0em 1em;
+    margin: 0 auto;
+    border-bottom: solid 1px;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.c1 {
+    flex-basis: 7%;
+}
+
+.c1>img{
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+}
+
+.c2{
+    padding: 0px 15px;
+}
+
+.c2>h6{
+    text-align: left;
+    margin: 5px 0px;
+    font-size: 1.2em;
+}
+
+.row>.content{
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: left;
+}
+.c3 {
+    width: 20%;
+    display: flex;
+    align-items: center; 
+}
+.c3 .action {
+    width: 1.7em;
+    margin-right: 15px;
+}
+.tweet-container>.contextual-container>.contextual-menu {
+    position: absolute;
+    right: 6%;
+    top: 4%;
+}
+.tweet-container>.contextual-container>.contextual-dropdown {
+    position: absolute;
+    right: 10%;
+    top: 12%;
+}
+.contextual-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0%;
+}
+.contextual-dropdown {
+    width: 40%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 8px grey;
+    border-radius: 5px; 
+}
+.contextual-menu>svg {
+    width: 20px;
+}
+.contextual-dropdown__row {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0.5em 1em;
+}
+.contextual-dropdown__row>svg {
+    width: 15%;
+    margin-right: 5px;
+}
+.contextual-dropdown__row:hover {
+    background-color: #d5d5d5;
+}

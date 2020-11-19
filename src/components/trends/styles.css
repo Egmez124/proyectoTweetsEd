@@ -1,0 +1,22 @@
+.trends-container {
+    display: flex;
+    flex-direction: column;   
+    width: 90%;
+    padding: 0em 1em;
+    margin: 0 auto;
+    border-bottom: solid 1px;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.f1 {
+    flex-basis: 40%;
+}
+.f1>img {
+    width: 60%;
+}
+.f2 {
+    width: 100%;
+    text-align: center;
+}

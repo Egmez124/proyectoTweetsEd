@@ -1,0 +1,14 @@
+.t-sidebar-col {
+    overflow: scroll;
+    height: 100vh;
+    
+}
+.sidebar-search {
+    border-bottom: solid 1px;
+}
+.search-input {
+    border-radius:  10px;
+}
+.btn {
+    border-radius:  10px;
+}
